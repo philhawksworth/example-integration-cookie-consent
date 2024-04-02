@@ -1,0 +1,5 @@
+{
+  "deno.enable": true,
+  "deno.enablePaths": ["src/edge-functions"],
+  "deno.unstable": true
+}

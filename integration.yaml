@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: block-content-with-sdk-ef-integration
+  name: block-content-with-sdk-ef-integration
+  description: Block content according to country code with edge functions
+  integrationLevel: site
+  scopes:
+    site: ["read", "write"]
