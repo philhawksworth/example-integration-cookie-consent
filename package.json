@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "netlify-integration build -a && cp src/public/* .ntli/site/static",
+    "build": "netlify-integration build -a && cp src/public/* .ntli/site/static/",
     "dev": "netlify-integration dev -a",
     "preview": "netlify-integration preview"
   },
